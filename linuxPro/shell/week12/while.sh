@@ -1,5 +1,5 @@
 #!/bin/bash
-if [[ $TERM != "xterm" ]]; then
+if [[ $TERM != "xterm-256color" ]]; then
 	echo "current terminal is not x-terminal"
 	exit 1
 fi
